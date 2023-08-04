@@ -1,0 +1,21 @@
+.over-all {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+}
+.pink {
+  background-color: lightpink;
+  width: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.item-1 {
+  background-color: black;
+  color: white;
+}
+.blue {
+  background-color: lightblue;
+  width: 200px;
+}

@@ -1,0 +1,14 @@
+.header {
+  display: inline;
+  background-color: red;
+  color: white;
+}
+.para_1 {
+  width: 30vw;
+  background-image: linear-gradient(red, yellow,green,orange,violet);
+}
+
+.para_2 {
+  width: 40vw;
+  background-image: linear-gradient( orange,violet,yellow,green);
+}

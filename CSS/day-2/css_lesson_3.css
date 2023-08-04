@@ -1,0 +1,30 @@
+.div_1 {
+  width: 20vw;
+  height: 40vh;
+  border: solid 1px red;
+  display: flex;  
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.two {
+  text-decoration-line: overline;
+}
+.link {
+  font-size: 20px;
+  text-decoration: none;
+  color: red;
+}
+.under_line {
+  text-decoration: underline;
+}
+.over_line {
+  text-decoration: overline;
+}
+.line_through {
+  text-decoration: line-through;
+}
+.blink {
+ text-decoration: bl;
+}

@@ -1,0 +1,60 @@
+
+body {
+  margin-bottom: 20%;
+}
+.card {
+  text-align: center;
+  padding: 20px;
+  width: 300px;
+  height: 100px;
+  background-color: black;
+  border-radius: 20px;
+}
+.h1 {
+  color: white;
+  margin: none;
+  padding: none;
+}
+.second_line {
+  color: white;
+}
+.date {
+  color: yellow;
+}
+.color-cards {
+  display: grid;
+}
+.red {
+  width: 45%;
+  background-color: rgb(120, 86, 10, 0.5);
+}
+.yellow {
+  width: 45%;
+  background-color: yellow;
+}
+.pink {
+  width: 45%;
+  background-color: pink;
+}
+.violet {
+  width: 45%;
+  background-color: violet;
+}
+.background_image {
+  text-align: center;
+  color: gray;
+  width: 500px;
+  height: 500px;
+  background-size: 500px;
+  background-repeat: no-repeat;
+  background-image: url(https://static1.anpoimages.com/wordpress/wp-content/uploads/2022/06/Amazon-Alexa.jpg);
+}
+
+.oneplus {
+  height: 200px;
+  background-color: pink;
+  border: solid 5px red;
+  outline: solid 5px black;
+  margin: none;
+  align-items: center;
+}

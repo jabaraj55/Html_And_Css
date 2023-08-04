@@ -1,0 +1,26 @@
+.green_button {
+  background-color: green;
+}
+.one {
+  color: RED;
+  border: solid 2px red;
+}
+.two {
+  color: blue;
+  border: dotted 1px blue;
+}
+.table {
+  width: 500px;
+  height: 200px;
+  border-collapse: collapse;
+  text-align: center;  
+}
+
+th {
+  background-color: black;
+  color: white;
+}
+td {
+  background-color: gray;
+  
+}

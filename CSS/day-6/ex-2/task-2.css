@@ -1,0 +1,539 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Fjalla One,  Arial, Helvetica, sans-serif, DM sans;
+}
+body {
+
+}
+/* ----------------------------header----------------------------- */
+.header {
+  width: 100%;
+  height: 12vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(125, 0, 125);
+  font-size: 22px;
+  font-weight: 600;
+  border-bottom: solid 2px rgb(125, 0, 125);
+}
+.logo {
+  margin-right: 2vh;
+  margin-left: 5vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+
+.logo-name:hover {
+  font-size: 18px;
+  border: solid 2px rgb(125, 0, 125);
+  padding: 3px 4px;
+  border-radius: 25px;
+}
+.nav-bar {
+width: 50%;
+}
+.menu {
+  display: flex;
+  list-style-type: none;
+}
+li {
+  float: left;
+  padding-left: 6%;
+  padding-right: 6%;
+}
+/* -----------------------hover------------------------- */
+
+.home-button:hover {
+  color: white;
+  background-color: rgb(125, 0, 125);
+  border: dotted 1px red;
+  border-radius: 30px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+.categories-button:hover {
+  color: white;
+  background-color: rgb(125, 0, 125);
+  border: dotted 1px red;
+  border-radius: 30px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+.About-button:hover {
+  color: white;
+  background-color: rgb(125, 0, 125);
+  border: dotted 1px red;
+  border-radius: 30px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+.Contact-button:hover {
+  color: white;
+  background-color: rgb(125, 0, 125);
+  border: dotted 1px red;
+  border-radius: 30px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+.FAQs-button:hover {
+  color: white;
+  background-color: rgb(125, 0, 125);
+  border: dotted 1px red;
+  border-radius: 30px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+
+/* ---------------------------head buttons ----------------------------- */
+.header-button {
+  display: flex;
+}
+.login-head{
+  color: rgb(125, 0, 125);
+  font-size: 22px;
+  width: 16vh;
+  height: 42px;
+  margin-left: 3.5vh;
+  border-radius: 10px;
+}
+.login-head:hover {
+  background-color: rgb(125, 0, 125);
+  color: white;
+  font-size: 24px;
+
+}
+.register-head {
+  color: white;
+  background-color: rgb(125, 0, 125);
+  font-size: 22px;
+  width: 20vh;
+  height: 45px;
+  margin-left: 3.5vh;
+  margin-right: 5vh;
+  border-radius: 10px;
+}
+.register-head:hover {
+  background-color: white;
+  color: rgb(125, 0, 125);
+  font-size: 24px;
+
+}
+
+.searchbox_container {
+  display: block;
+  width: 100%;
+  height: 90vh;
+  background-image: url(./images/searchbox-image.png);
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: 3vh;
+  line-height: 9vh;
+}
+
+.searchbox_text-1 {
+  padding-top: 18vh;
+  font-size: 5vh;
+  margin-left: 15%;
+}
+.searchbox_text-2 {
+  font-size: 5vh;
+  margin-left: 15%;
+}
+.searchbox {
+  margin-top: 2vh;
+  margin-left: 15%; 
+  display: flex;
+  align-self: center;
+  background-color: rgb(125, 0, 125);
+  width: 100vh;
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  border: solid 1px gray;
+  border-radius: 15px;
+  padding: 3px;
+}
+
+.search-icon {
+  width: 5vh;
+  margin-left: 2vh;
+  margin-right: 2vh;
+}
+.filter-icon {
+  width: 5vh;
+  margin-left: 2vh;
+  margin-right: 2vh;
+}
+.input {
+  border-radius: 10px;
+  width: 55%;
+  padding: 1.5vh 5vh;
+  font-size: 20px;
+  color: rgb(125, 0, 125);
+}
+.search-button {
+  height: 6.5vh;
+  width: 15%;
+  font-size: 20px;
+  color: rgb(125, 0, 125);
+  border-radius: 10px;
+}
+.search-button:hover {
+  height: 7vh;
+  width: 16%;
+}
+/* <!----------------------------categories div-----------------------------------> */
+
+.categories-overall {
+  margin-bottom: 10vh;
+}
+.categories-div {
+display: flex;
+justify-content: space-between;
+text-align: justify;
+}
+.job-categories {
+  font-size: 50px;
+  text-align: center;
+  margin-top: 8vh;
+  margin-bottom: 12vh;
+  color: rgb(125, 0, 125);
+}
+.left {
+  margin-top: 30px;
+}
+.left:hover {
+  transform: scale(1.2);
+  transition: 0.3s;
+}
+.categorie-logo {
+  height: 12vh;
+  padding: 2.5vh 2vh 1vh 2vh;
+  align-items: center;
+  margin-bottom: auto;
+  border: solid 3px rgb(125, 0, 125);
+  border-radius: 10px;
+  text-align: center;
+}
+.categorie-logo:hover {
+  transform: scale(1.1);
+  border: solid 5px red;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+.categorie {
+  text-align: center;
+}
+.category_name {
+  font-size: 25px;
+  margin-top: 1vh;
+  
+}
+.right {
+  margin-top: 6vh;
+}
+.right :hover {
+  transform: scale(1.2);
+  transition: 0.3s;
+}
+/* <!----------------------------skillset div-----------------------------------> */
+
+.skillset_div {
+  background-image: url(./images/background);
+  display: flex;
+  width: 100%;
+  height: 85vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.skillset-left {
+  width: 100%;
+}
+.skillset-left-title {
+  font-size: 5vh;
+  margin-left: 22%;
+  margin-top: 5vh;
+}
+.skillset-left-content {
+  font-size: 22px;
+  line-height: 30px;
+  margin-left: 22%;
+}
+.skillset-left-button {
+  margin-left: 22%;
+  width: 33vh;
+  height: 7vh;
+  font-size: 25px;
+  border-radius: 10px;
+  color: white;
+  background-color: rgb(125, 0, 125);
+  margin-top: 5vh;
+}
+.skillset-left-button:hover {
+background-color: white;
+color: rgb(125, 0, 125);
+font-size: 28px;
+
+}
+.skillset-right {
+  width: 100%;
+  display: flex;
+}
+.skillset-right-one {
+  text-align: center;
+}
+.skill-button-group {
+  margin-top: 10vh;
+}
+.skill-button {
+  width: 33vh;
+  height: 7vh;
+  font-size: 25px;
+  border-radius: 10px;
+  margin-top: 6vh;
+}
+.skill-button:hover {
+  background-color: rgb(125, 0, 125);
+  color: white;
+  font-size: 28px;
+
+}
+.skill-button-last {
+  width: 33vh;
+  height: 7vh;
+  font-size: 25px;
+  border-radius: 10px;
+  color: white;
+  background-color: rgb(125, 0, 125);
+  margin-top: 6vh;
+}
+.skill-button-last:hover {
+  background-color: white;
+  color: rgb(125, 0, 125);
+  font-size: 28px;
+}
+/* ----------------------------FIND TOP SKILLED RESOURCES------------------------------ */
+
+
+.skill-header {
+  color: rgb(125, 0, 125);
+  font-size: 5vh;
+  text-align: center;
+  margin-top: 6vh;
+  margin-bottom: 6vh;
+}
+.skilled-peopels {
+  border-radius: 20px;
+  width: 15%;
+  background-color: rgb(125, 0, 125);
+}
+.skilled-peopels:hover {
+  transform: scale(1.05);
+  border: solid 5px rgb(125, 0, 125);
+  border-radius: 25px;
+  transition: 0.3s;
+
+} 
+.skilled-photo {
+  width: 100%;
+  height: 25vh;
+
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.skilled-name {
+  color: white;
+  margin-top: 1.5vh;
+  width: 100%;
+  font-size: 22px;
+  text-align: center;
+}
+.designation {
+  color: white;
+  width: 100%;
+  font-size: 22px;
+  margin-top: 2vh;
+  text-align: center;
+}
+.star {
+text-align: center;
+}
+.star-logo {
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  width: 2vh;
+}
+.skilled-profile-top {  
+  display: flex;
+  justify-content: space-evenly;
+}
+.skilled-profile-bottom {
+  display: flex;
+  justify-content: space-evenly;
+}
+.skill-mid-arrows {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+/* ----------------------------COMMENT SECTION------------------------------ */
+
+.comment-section {
+  background-color: rgb(55, 91, 211);
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.comment-section-body {
+  width: 70%;
+ display: flex;
+ flex-direction: column;
+}
+.input-line-one {
+  display: flex;
+  justify-content: space-between;
+  
+}
+.input-line-two {
+  display: flex;
+  justify-content: space-between;
+}
+.input-small {
+  width: 45%;
+  height: 8vh;
+  margin-top: 3vh;
+  border-radius: 10px;
+}
+
+::placeholder {
+  font-size: 25px;
+  padding-left: 30px;
+  padding-top: 0;
+  color: rgb(125, 0, 125);
+}
+
+.input-big {
+  width: 100%;
+  height: 30vh;
+  border-radius: 15px;
+  margin-top: 5vh;
+}
+.submit-comment {
+  width: 25%;
+  height: 7vh;
+  font-size: 25px;
+  color: white;
+  background-color: rgb(125, 0, 125);
+  margin-top: 5vh;
+  margin-left: 75%;
+  border-radius: 12px;
+}
+.submit-comment:hover {
+  background-color: white;
+  color: rgb(125, 0, 125);
+  font-size: 28px;  
+}
+
+/* ----------------------------FOOTER------------------------------ */
+
+
+
+.footer-body {
+font-size: 27px;
+line-height: 60px;
+width: 100%;
+height: 50vh;
+background-color: rgb(197, 197, 197);
+height: 100%;
+
+}
+.footer-title {
+  font-size: 50px;
+  margin-left: 12%;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  color: rgb(125, 0, 125);
+}
+.footer {
+  display: flex;
+  justify-content: space-around;
+}
+.footer-button-top {
+  display: flex;
+  justify-self: center;
+}
+
+.footer-button-bottom {
+  display: flex;
+  justify-self: center;
+}
+.footer-button-image {
+  width: 3vh;
+  margin-right: 20px;
+}
+.footer-button {
+  font-size: 20px;
+  width: 30vh;
+  height: 7vh;
+  border-radius: 12px;  
+  align-self: auto;
+}
+
+/* ----------------------------FOOTER------------------------------ */
+
+.copyright {
+  width: 100%;
+  height: 100%;
+background-color: rgb(125, 0, 125);
+}
+.copyright-text {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+}
+
+@media screen and (max-width:900px) {
+body {
+  width: 100%;
+}
+.header {
+  width: 100%;
+}
+.menu {
+  display: none;
+}
+.login-head{
+  width: 12vh;
+  height: 30px;
+  font-size: 15px;
+  margin-left: 10px;
+}
+.register-head {
+  font-size: 15px;
+  width: 15vh;
+  height: 30px;
+  margin-left: 10px;
+  margin-right: 12vh;
+}
+.header-button {
+  background-image: url(./images/menu-icon.svg);
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-position-x: 90%;
+  background-position-y: 80%;
+}
+.header-button:active {
+  
+}
+}

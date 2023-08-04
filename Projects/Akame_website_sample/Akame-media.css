@@ -1,0 +1,41 @@
+@media screen and (max-width:900px) {
+  .logo-name{
+  font-size: 25px;
+  }
+  .nav-bar li {
+  font-size: 15px;
+  padding-left: 1vh;
+  padding-right: 1vh;
+  }
+  .cart-img {
+    width: 30px;
+  }  
+  .book-now-buttom {
+    background-color: white;
+    border-radius: 15px;
+    padding: 5px 15px;
+    font-size: 13px;
+    margin-left: 1vh 
+  }
+}
+
+@media screen and (max-width:460px) {
+  .logo-name{
+    font-size: 20px;
+    }
+    .nav-bar li {
+    font-size: 10px;
+    padding-left: 3px;
+    padding-right: 3px;
+    }
+    .cart-img {
+      width: 20px;
+    }  
+    .book-now-buttom {
+      background-color: white;
+      border-radius: 10px;
+      padding: 2px 6px;
+      font-size: 5.5px;
+      margin-left: 1vh; 
+    }
+}

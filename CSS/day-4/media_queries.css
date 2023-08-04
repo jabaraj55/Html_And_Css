@@ -1,0 +1,46 @@
+body {
+  background-color: lightblue;
+}
+.logo {
+  width: 30px;
+}
+.logo-image {
+  width: 14vh;
+}
+.menu_bar {
+  color: darkgreen;
+  float: left;
+}
+ul {
+  display: flex;
+  list-style: none;
+}
+li {
+  font-size: 23px;
+  color: white; 
+  padding-left: 8vh;
+  padding-right: 8vh;
+}
+.header {
+ display: flex;
+ align-items: center;
+ justify-content: space-evenly;
+ background-color: darkgreen;
+}
+.hamburger-menu {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,41 @@
+.one {
+  width: 1350px;
+  color: white;
+  background-color: rgb(118, 118, 118);
+  padding: 30px;
+  margin: 20px;
+}
+.unit_pxel {
+  font-size: 25px;
+}
+
+.two {
+  width: 82rem;
+  color: red  ;
+  background-color: gold;
+  padding: 3rem;
+  margin: 2rem;
+}
+.unit_rem {
+  font-size: 2rem;
+}
+.three {
+  width: 87%;
+  color: maroon;
+  background-color: magenta;
+  padding: 3%;
+  margin: 3%;
+}
+.per_cent {
+  font-size: 180%;
+}
+.four {
+  width: 85vw;
+  color: darkslategrey;
+  background-color: lightblue;
+  padding: 3vw;
+  margin: 5vh;
+}
+.unit_vh_vw {
+  font-size: 4vh;
+}

@@ -1,0 +1,120 @@
+body {
+  background-color: rgb(1, 9, 16);
+}
+.over-all {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.header { 
+  margin-top: 50px;
+  margin-bottom: 80px;
+  height: 12vh;
+  display: flex ;
+  background-color: white ;
+  border: solid 2px;
+  border-radius: 6vh; 
+  justify-content: space-between;
+  align-items: center;
+  width: 70vw;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.logo {
+
+  height: 7vh;
+  width: 14vh;
+  padding-left: 80px; 
+}
+.menu_bar {
+  width: 55vw;
+  list-style-type: none;
+  font-size: 2.75vh;
+}
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 3vw;
+  margin-left: 1vw;
+}
+li {
+  float: left;
+  font-weight: 600;
+  padding-left: 50px;
+}
+li:hover {
+  color: #1589FF;
+  font-style: italic;
+  font-family: 'papyrus';
+  font-size: 50px;
+  cursor: pointer;
+}
+li:active {
+  font-size: 26px;
+  color: #39FF14;
+  font-style: italic;
+  font-family: 'papyrus';
+  font-size: 50px;
+}
+.left_side {
+  margin-left: 5vw;
+  width: 42%;
+}
+.content {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 120px;
+}
+.green_button {
+  font-size: 60px;
+  font-weight: 800;
+  color: #39FF14;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 80px;
+  padding-right: 80px;
+  border: solid 8px #39FF14;
+  border-radius: 80px;
+  
+}
+.name {
+  color: white;
+  font-size: 110px;
+  margin-top: 0;
+  margin-bottom: 0;
+  
+}
+.description {
+  width: 35vw;
+  color: white;
+  font-size: 42px;
+}
+.button {
+  margin-top: 40px; 
+  font-size: 40px;
+  color: white;
+  background-color: rgb(1, 9, 16);
+  border: solid 3px white;
+  border-radius: 40px;
+  padding: 20px 45px;
+}
+.button:hover {
+  font-size: 26px;
+  font-weight: 800;
+  color: #1589FF;
+  font-style: italic;
+  font-family: 'papyrus';
+  font-size: 50px;
+  cursor: pointer;
+}
+.button:active {
+  font-size: 26px;
+  font-weight: 800;
+  color: black;
+  background-color: #1589FF;
+  font-style: italic;
+  font-family: 'papyrus';
+  font-size: 50px;
+}

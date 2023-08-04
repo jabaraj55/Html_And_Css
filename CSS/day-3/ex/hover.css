@@ -1,0 +1,12 @@
+body {
+  font-family: Foldit;
+  color: blueviolet;
+}
+
+.list {
+  display: inline-block;
+
+}
+ .list:hover {
+  color: red;
+ }

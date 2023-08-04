@@ -1,0 +1,37 @@
+#slide-content {
+  font-size: 3vh;
+  background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%);
+  color: maroon;
+}
+.over-all-page {
+display: block;
+width: 70%;
+margin: auto;
+margin-bottom: 200px;
+}
+h3 {
+display: block;
+text-align: center;
+margin-top: 25px;
+margin-left: auto;
+margin-right: auto;
+width: 150%;
+}
+img {
+  width: 320px;
+}
+.box {
+ margin-top: 60px;
+ margin-bottom: 0;
+ height: 38vh;
+ padding: 30px;
+
+ width: 100%;
+ display: flex;
+ border: solid 10px lightblue;
+ padding: 25px;
+}
+p {
+  display: flex;
+  margin-left: 20px
+}

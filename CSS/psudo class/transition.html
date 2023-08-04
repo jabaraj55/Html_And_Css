@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .box{
+      width: 200px;
+      height: 200px;
+      background-color: red;
+    }
+    .box:hover {
+      width: 300px;
+      height: 300px;
+      background-color: violet;
+      transition: all 2s 0.1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+    .box1{
+      margin-left: 10vh;
+      width: 200px;
+      height: 200px;
+      background-color: pink;
+      border-top: solid black 5px;
+      border-right: solid green 5px;
+      border-bottom: solid red 5px;
+      border-left: solid blueviolet 5px;
+    }
+    .box1:hover {
+      background-color: gray;
+      transition: all 2s 0.1s ease;
+      /* transform: translate(60px, 100px); */
+      /* transform: rotate(-360deg); */
+      transform: rotate(360deg);
+    }
+
+  </style>
+</head>
+<body style="display: flex;">
+  <div class="box"></div>
+  <div class="box1"></div>
+</body>
+</html>

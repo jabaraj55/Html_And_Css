@@ -1,0 +1,48 @@
+.over-all {
+  position: flex;
+  vertical-align: middle;
+}
+.profile {
+  position: fixed;
+}
+.profile-pic {
+  display: inline-block;
+  vertical-align: middle;
+}
+img {
+  width: 50px;
+  border-radius: 25px;
+}
+.profile-name {
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.buttons {
+  position: flex;
+}
+.add-friend {
+  border: 0;
+  border-radius: 10px;
+  color: white;
+  background-color: blue;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  vertical-align: middle;
+  position: fixed;
+  right: 160px;
+}
+.message {
+  border: 0;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  vertical-align: middle;
+  position: fixed;
+  right: 50px;
+}

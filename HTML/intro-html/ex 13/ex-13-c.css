@@ -1,0 +1,50 @@
+.over-all {
+  width: 450px;
+  display: inline-block;
+  font-family: arial;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 5px;
+  border: 0px;
+  border-style: solid;
+  box-shadow: 1px 2px 3px rgb(0, 0, 0, 0.3);
+}
+.notifications {
+  color: gray;
+}
+.content {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+img {
+  width: 80px;
+  border-radius: 40px;
+}
+.text {
+  margin-left: 15px;
+}
+.first-line {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.first-line-text {
+  font-size: 20px;
+  font-weight: bold;
+}
+.first-line-time {
+  font-size: 15px;
+  color: gray;
+}
+.second-line {
+  margin-top: 5px;
+  font-size: 20px;
+  font-weight: bold; 
+}
+.third-line {
+  color: gray;
+  margin-top: 5px;
+}

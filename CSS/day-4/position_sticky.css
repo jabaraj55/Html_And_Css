@@ -1,0 +1,15 @@
+body {
+  background-image: url(sky.png);
+  background-size: 100%;
+}
+.title {
+  color: brown;
+}
+
+.position_fixed_title {
+  color: red;
+  background-color: white;
+  position: absolute;
+  left: 50px;
+  top: 50px;
+}

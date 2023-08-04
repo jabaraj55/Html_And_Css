@@ -1,0 +1,13 @@
+body {
+  background-image: url(sky.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.header {
+  margin: 60px 0px 2px 0px ;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  top: 0px;
+  position: sticky;
+  background-color: rgb(240, 92, 92);
+}
